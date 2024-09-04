@@ -1,0 +1,9 @@
+workers:
+  - name: cronjob to call service
+    time_run: "*/5 * * * * *"
+    function: testCronJob
+    enable: true
+  - name: cronjob to call service update stock
+    time_run: "*/5 * * * * *"
+    function: updateStock
+    enable: true

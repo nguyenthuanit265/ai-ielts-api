@@ -1,0 +1,26 @@
+server:
+  mode: dev
+  port: 9092
+auth:
+  jwt-secret-key: "my-secret-key"
+ai:
+  chat-gpt:
+    api-key: "12345"
+database-1:
+  host: 127.0.0.1
+  port:
+  user:
+  password:
+  dbname:
+  sslmode: disable
+  max-open-conn: 5
+  max-idle-conn: 2
+database-2:
+  host: 127.0.0.1
+  port:
+  user:
+  password:
+  dbname:
+  sslmode: disable
+  max-open-conn: 5
+  max-idle-conn: 2
